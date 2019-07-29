@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-undoing-styles",
+  "version": "0.0.1",
+  "description": "This plugin finds any usage of undoing styles in your (s)css files and reports them",
+  "license": "MIT",
+  "repository": "florianuphoff/stylelint-undoing-styles",
+  "author": "Florian Uphoff <florianuphoff@mailbox.org>",
+  "homepage": "https://github.com/florianuphoff/stylelint-undoing-styles",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 12.5.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "stylelint",
+    "lint",
+    "linter",
+    "plugin",
+    "stylelint-plugin"
+  ],
+  "peerDependencies": {
+    "stylelint": "^10.1.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
