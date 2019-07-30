@@ -1,4 +1,7 @@
 # stylelint-no-undoing-styles
+[![Latest version][npm-v-img]][npm]
+[![Downloads][npm-d-img]][npm]
+
 This plugin finds any usage of undoing styles in your (s)css files and reports them.
 
 ## Install
