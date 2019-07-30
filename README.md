@@ -1,6 +1,5 @@
 # stylelint-no-undoing-styles
-[![Latest version][npm-v-img]][npm]
-[![Downloads][npm-d-img]][npm]
+![npm](https://img.shields.io/npm/v/stylelint-no-undoing-styles)
 
 This plugin finds any usage of undoing styles in your (s)css files and reports them.
 
