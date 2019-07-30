@@ -53,6 +53,7 @@ const declToReset = [
   'margin-left', //0;
   'margin-right', //0;
   'margin-top', //0;
+  'margin', // 0
   'mask-image', //none;
   'max-height', //none;
   'max-width', //none;
@@ -106,7 +107,7 @@ resettingValues = [
 module.exports = stylelint.createPlugin(
   ruleName, 
   (actual) => (postcssRoot, postcssResult) => {
-    const validOptions = utils.validateOptions(postcssResult, ruleName, { actual });
+    const validOptions = stylelint.utils.validateOptions(postcssResult, ruleName, { actual });
 
     if (!validOptions) return;
 
