@@ -118,7 +118,7 @@ module.exports = stylelint.createPlugin(
           result: postcssResult,
           message: messages.usage(decl.prop,decl.value),
           node: decl.parent,
-          word: decl.parent.selector,
+          word: `${decl.prop}${decl.value}`,
           line: decl.source.start.line
         })
       }
