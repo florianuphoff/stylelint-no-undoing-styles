@@ -1,6 +1,6 @@
 {
   "name": "stylelint-no-undoing-styles",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "This plugin finds any usage of undoing styles in your (s)css files and reports them",
   "license": "MIT",
   "repository": "florianuphoff/stylelint-no-undoing-styles",
